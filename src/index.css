@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container {
+  background-color: #f0f0f0;
+ 
+  border-radius: 10px;
+  text-align: center;
+  width:500px;
+  margin-left:30%;
+  margin-right: 30%;
+  margin-top:50px;
+  border:2px solid #c82333;
+}
+
+.Input-container {
+  margin-bottom: 20px;
+}
+
+.Input-container input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.Input-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Input-container button:hover {
+  background-color: #0056b3;
+}
+
+.ListofTask ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ListofTask ul li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ListofTask ul li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ListofTask ul li button:hover {
+  background-color: #c82333;
+}
